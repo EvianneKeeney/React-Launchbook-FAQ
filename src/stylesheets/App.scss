@@ -1,0 +1,28 @@
+/* YOUR STYLING HERE */
+li {
+
+ list-style: none;
+}
+
+.inactive {
+ padding: 0em 0.3em;
+ font-size: 1.5em;
+ background-color: #1c2224 ;
+ color: #FFFFFF ;
+ float: left;
+ overflow: hidden;
+}
+
+.active{
+  @extend .inactive;
+  background-color: #84CE15
+}
+
+body {
+    background-color: $light-blue;
+}
+
+h2  {
+    text-align: center;
+    color: #37BECC
+}
